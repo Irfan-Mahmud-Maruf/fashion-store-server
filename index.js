@@ -189,7 +189,7 @@ app.use(errorMiddleware)
  *Route: /
  */
 app.get('/', async (req, res) => {	
-	res.send('Fashion Gallary server running.')
+	res.send('Fashion Store server running.')
 })
 
 
