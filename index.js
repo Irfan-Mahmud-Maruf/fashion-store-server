@@ -184,7 +184,7 @@ const errorMiddleware = (err, req, res, next) => {
 app.use(errorMiddleware)
 
 
-// Routes
+
 /**
  *Route: /
  */
