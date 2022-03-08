@@ -14,15 +14,15 @@ const port = process.env.PORT || 5000
 
 const credentialsOptions = {
 	"type": "service_account",
-	"project_id": process.env.PROJECT_ID,
-	"private_key_id": process.env.PRIVATE_KEY_ID,
-	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCy60qyspZeOcen\nhYXHnzPQt4vNr47jfep93/MhVngv69S2E4OiEHj9Me207kkFyVXygaJUu82HS/Gb\nKOPmUd4AXuKlrFlfM463VjIeLIrcQxTbLc+72Bh4tUGtk35G79uaLoO3xvpQzyzw\ndCxF6ZFwriuNs/XAegZPplgM729mh1UP/W6Lw36xaeY5meZbdy5dhso/8gcE+Ytx\nVUZriLna4dnYMJn0qpgW9gZ8PIfUYCR1Men+1hyOuRBGRiykiLWCRX+8v6+LEnNB\n13pnApPOGRXc2pa3poL9Eofd8665WPeu4I0ZdZg83aci1Ntd+KSIPztuAQ2Pbis0\nhket4ntfAgMBAAECggEABSm0bmVfKgKfHJD88doAysVX/f6bwmDJOgpcDWzLWVjx\nqGms4wUvPSqchtKhdM638aBgBDzKiu7uXryx5tz2e+Flop9htfnam5KbwDKU2YEk\n5u0XNcgpJcKOYA3hO9I5ygl6uLMtfWbmNDjzsYjEwVo3k4Zdmn/9NzRSe0Y3yQOS\n0NpJt6+jtnjirFO/3l6eaekbBatqHTBemqTQzibxeZDzkW8pjN63XrFOHgN0726F\nZR6zfFbhICDqyPeB91VZeiXR0+GSh9RO3InAbyarNV5uCPeQjxcNvKY5wOS0CqhF\nH5AQ5PqWLE080KqC+xdqzMxECxD541LQNva/qQG64QKBgQD2/Zx3X6BnCUGrbadK\nTUQ6IJc9DubVHKUSmlhgWtWYN/ikDtvKfJ4BgMVSaIeuWVVNR1HfGWrIgRVsr7mW\n/D2+aFfPA3GpJyqSs+buK0iofIVp0fvsQJg94EI/aUA8ZxIgWu6+PImdLTHW2+jp\ngEaIUsLvQ9TOe1gnbZ5qHkbpCQKBgQC5cgf4kXqy46086hjLpnD2aNwqEyBXdUd3\nT22FoTDNo6pcpJEq0YydICySSd9hnigpVozEcP38Hv/MLOwux6y+7wPuw0mFfCiR\nHUTspdJGg0lWzbzZch5w23SQqw6YvISFbwMI2jUUANxHYAlZG9VvwoK4UUC7WCOd\nMsKc42LjJwKBgQC2kXJlvra3Ut1K1SvyPTjwaoTAalJwNtNB8/rdhmcaNE1DH4SR\noRm+bKvupTudwYTPMaev7H7FJL1scFwT4fHV3BUD/Ty31y6d8AMEC9SSTjDjroaz\n9G9UVX9Clg8YVuvMJMsSrXbfSrfrZPQ+HUaFn/9dktsroXrg8iNFt4mc2QKBgDPQ\n8Pk7bRVfGKDUqGj+8MFpO1tmTLsjQfzMbMXR7FkJSijossdMFgYxX0Lg8VHNZ1tl\nm5+oEs/HuaHLS5Mmp9YR4v9sAbcSoiMqEoAtNTwOowdmJUZ85JSUPVXO9h0nT8AY\n7LgkgIA+XU50Pyhu5ox7xRrLWVL/pbPe4xIDVzYxAoGAalvONL4P+dMPfaHN7ppf\nvfKnc4nDE+UxMVHmC4rNe3J2sTu0MThLEQczn49OpPrtpMy1jfK5uMRVXN0poXcP\noC56nPnZpvUmH3H6+jjXIEt0C11IAefgRY65xCZYMMPsGZvOpZ/KHvNH7yPqjf/M\nvkzK6RBFLK/TFT34HTrU148=\n-----END PRIVATE KEY-----\n",
-	"client_email": process.env.CLIENT_EMAIL,
-	"client_id": process.env.CLIENT_ID,
-	"auth_uri": process.env.AUTH_URI,
-	"token_uri": process.env.TOKEN_URI,
-	"auth_provider_x509_cert_url": process.env.AUTH_PROVIDER_X509_CERT_URL,
-	"client_x509_cert_url": process.env.CLIENT_X509_CERT_URL
+  "project_id": "fashion-store-a93df",
+  "private_key_id": "655304ac574aa324afa838189d48a57598f11c8c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGiElCJMjzaufO\nI4ukQmkVhjw+GNNkz+Tv6VhyEZFr2laBkN3ydDK6MujFGT/DtYpOkloDAFb3M/Xg\n68gzGPW31p+5NTzpE9Ce9Ve3hK99BJOLja0np2AxN97b6sszmgOs5/YpwR+JoGTH\nTaCUWkV+a3gACoeiGb7Fnu8Wqgh+4rCJ1GV0d5dJgIWNzCiFh4ym6pOnaGC9X+8A\nddZXgTvOmUPB2yzPyCCbT/PspHgGWw2/KF10mFUp5A59gBMwByh0q14TrgFbxRWU\nTSsZ5jDXprJhJA+Z0bCdASnYvMtlSV0xYtZrJDUu+CjRdXGfWh/U9ia9ttcL8oIa\n1adl1N4VAgMBAAECggEABo0Hsc2J7fJInNYybOSeGA46XagvDYQIn1v5RaZLwJ3P\nPe48TJxF8jvsz1gicQBEBIyyuKehtv15bwcIr5ryvLKxyYg2rtAvEZex4cXYjo0A\nm1m87XKJ64XW7jXEp7q8xU9QIZeURVPMD4GBu3NxGJdOOd4fFJu53kZ8yCgrKJie\natJZdab4SGVV0bY8ecGPaQqrCRyg0qGSq1CBJYnGdq+Ewek/XzgXIYaohD65/J5s\nnC4u0vov6oK6lnS52+GqzJMK6eWbC26F3SzE/ymmk6VKlosWmiLea2fOwpegC99A\niGikn/FcbJ4stdHdFF3l8kTw7i/Fn0iqwZeDGJD6oQKBgQDsH+N/oa3ffD9To+iP\nzOnABzKLKU7LNJsvYgjaPkz5/g6jU5CyYUnv+gWQKMSWyTaGe0mPtrLbFjlaxRcA\nLYlObj9WQKD+FhHbf8GaPDovEjauhnxb7T94LT3oBe+yq5hlKeQCRtXeKPwMSxYc\nLWuDoCrJSOgGWz54C6AK2F9sEQKBgQDXPlhUc2F9ohc0CfbAjrSCRKyZp4OaPSKW\n6LCGqLEXFWHpAcsvQ2gSA7/v/918GaOGTkDSseEb/9Ichnm6kObGhdG4wLMMvQVK\nGPf7p2+LeRjbzTKqHiljFKQpkSwU0a/5T/u3mgnA6wqTBoL6gDMdsh1SE5e7MoiW\nqn6DJoRlxQKBgQC2LZRU8OU5vJ8PZTMVX8ApjGQOwnwshBYHZNf3qoGxj7azhNHr\nDu0A3iJUq1+iBvSupYiH/SnZpzfxNIceeAOsI5tybMLJxzVX6SXyXe12S9MsrE5e\njpmdmypcTdg2PfaCduOYbhasJWryASy56ME++OCKFFoQLW3xKOb99xsIQQKBgFRD\nG+Ezqh68rci5fde0BgZZTBh685IWDMx3G2Qb9ffLbyEAisJd6QfkX+dciyBiCRoy\n2D2jVTTY2TBBlLXss+tTx95D0dRSyxdO3wWtboVzSsABfKwMUrdvBTUgl9kunW1E\nWo5txxO279TO38ehGGGvsLrI4MVv6vjQleZR1dLhAoGAA63GvdU6LNJ4QIyZUR73\ncdEgtuUKtvQ9/epz+/3NkyvyNOUxfZDek7i6reanmG5OIHWe7QsXmNIFCMSiOmwc\nBat86NA4BupGkmffzxsB72wT1RMjjlyWSUfScDSEgH99hv41Yy7jcbOfULG+K4gR\nRA3k660wiOnynBQgqSKhRko=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-jhe1u@fashion-store-a93df.iam.gserviceaccount.com",
+  "client_id": "108974080347415844514",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-jhe1u%40fashion-store-a93df.iam.gserviceaccount.com"
 }
 admin.initializeApp({	
 	credential: admin.credential.cert(credentialsOptions)
